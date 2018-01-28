@@ -45,8 +45,8 @@ def get_tokens():
     Writes the generated tokens to a file for later use
     :return:
     '''
-    path = "C:\\Study\\RIT\\Web Services\\Assignments\\A4\\GeneratedFiles\\"
-    out_path = "C:\\Study\\RIT\\Web Services\\Assignments\\A4\\GeneratedTokens\\"
+    path = "C:\\hidden_path"
+    out_path = "C:\\hidden_path"
 
     for subdir, dirs, files in os.walk(path):
         # for every file in the folder
@@ -79,8 +79,8 @@ def get_tokens():
 
 get_tokens()
 
-path = "C:\\Study\\RIT\\Web Services\\Assignments\\A4\\GeneratedTokens\\"
-#out_path = "C:\\Study\\RIT\\Web Services\\Assignments\\A4\\corpus.txt"
+path = "C:\\hidden_path"
+#out_path = "C:\\hidden_path"
 corpus = []
 
 for subdir, dirs, files in os.walk(path):
